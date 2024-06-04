@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Forgot Password</title>
     <style>
@@ -12,6 +13,7 @@
             height: 100vh;
             margin: 0;
         }
+
         .container {
             background-color: #fff;
             padding: 20px;
@@ -20,37 +22,45 @@
             max-width: 400px;
             width: 100%;
         }
+
         h2 {
             margin-bottom: 20px;
         }
-        input[type="email"], input[type="submit"] {
+
+        input[type="email"],
+        input[type="submit"] {
             width: 100%;
             padding: 10px;
             margin: 10px 0;
             border: 1px solid #ccc;
             border-radius: 5px;
         }
+
         input[type="submit"] {
             background-color: #007bff;
             color: #fff;
             border: none;
             cursor: pointer;
         }
+
         input[type="submit"]:hover {
             background-color: #0056b3;
         }
+
         .message {
             color: green;
         }
     </style>
 </head>
+
 <body>
-    <form action="forgot_password.php" method="post">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
+    <form action="../../proses_forgot.php" method="post">
+        <label for="username">Username :</label>
+        <input type="text" id="username" name="username" required><br><br>
         <input type="submit" value="Submit">
     </form>
 </body>
+
 </html>
 
 <?php
