@@ -1,0 +1,85 @@
+body{
+    background: url("https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?cs=srgb&dl=pexels-s-migaj-747964.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+    height: 100vh;
+}
+.wrapper{
+    width:350px;
+    margin:3% auto;
+    padding:10px;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.23);
+	box-shadow: 2px 2px 6px 4px #000000;
+}
+.heading {
+	text-align: center;
+	padding-top: 40px;
+}
+.heading h1 {
+	color: black;
+	font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+	margin-bottom: 80px;
+}
+
+.heading .logo {
+    margin-top: -55px;
+    margin-bottom: 20px;
+}
+
+.judul {
+    font-size: large;
+    color: rgb(12, 11, 11);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+
+form {
+	text-align: center;
+}
+form input,button{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    box-sizing: border-box;
+	font-size: 15px;
+	color: rgb(24, 23, 23);
+    border-radius: 10px;
+}
+form input{
+    padding-left: 40px;
+}
+form i {
+	position: absolute;
+	left: 15px;
+	color: red;
+	font-size: 17px;
+	top: 2px;
+}
+form span {
+	position: relative;
+}
+form ::placeholder {
+    color: rgb(24, 23, 23);
+    font-weight: bold;
+  }
+form button {
+	padding-left: 0;
+	background-color: yellow;
+    box-shadow: 2px 2px 6px 4px #000000;
+	letter-spacing: 1px;
+	font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 15px;
+}
+form button:hover {
+	box-shadow: 2px 2px 5px #555;
+	background-color: #000000;
+    color:yellow;
+}
+
